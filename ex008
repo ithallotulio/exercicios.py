@@ -1,0 +1,8 @@
+# Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros
+
+print('Me diga um valor em metros e direi quantos centímetros e milímetros ele tem')
+v = int(input('Digite o valor: '))
+c = v*100
+m = v*1000
+print('Tem {} centímetros em {}m'.format(c, v))
+print('Tem {} milímetros em {}m'.format(m, v))
