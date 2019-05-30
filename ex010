@@ -1,0 +1,7 @@
+# Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar
+
+r = int(input('Quantos reais você quer transformar em dólares? '))
+# Escreva aqui em baixo o valor do dolar atualmente d = float(Valor do dólar)
+d = float(3.73)
+t = r/d
+print(f'Você tem {r} reais, o equivalente a {t:.2f} dólares')
