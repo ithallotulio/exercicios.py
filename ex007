@@ -1,0 +1,7 @@
+# Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média.
+
+print('Digite duas notas e direi sua média')
+n1 = float(input('Sua primeira nota é: '))
+n2 = float(input('Sua segunda nota é: '))
+m = (n1+n2)/2
+print('Sua média é {:.1f}'.format(m))
